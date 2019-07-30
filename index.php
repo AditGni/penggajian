@@ -1,5 +1,5 @@
 <?php
-mysql_connect('localhost','root','nigatida');
+mysql_connect('localhost','root','');
 mysql_select_db('db_penggajian');
 error_reporting(0);
 ob_start();

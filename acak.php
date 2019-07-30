@@ -1,6 +1,6 @@
 <?php
 error_reporting(0);
-mysql_connect('localhost','root','nigatida');
+mysql_connect('localhost','root','');
 mysql_select_db('db_penggajian');
 $sql = mysql_query("SELECT * FROM pegawai");
 while($k = mysql_fetch_array($sql)){
